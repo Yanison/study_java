@@ -27,6 +27,52 @@ public class PrintHello {
 		}
 	}
 	
+	
+	static class User {
+			
+			void printer() {
+				System.out.println("hello");
+			}
+			
+			void printer2 (int a, int b) {
+				System.out.println("매게변수는 :" + a + b );
+			}
+			
+			void printer3 (int a, int b) {
+				System.out.println("매게변수의합 a + b는" + (a+b) + " 입니다"  );
+			}
+			
+			public String genderfinder (String a) {
+				if(a == "male") {
+					return "male";
+				}else {
+					return "women";
+				}
+			}
+		}
+
+	static class UserDAo {
+		
+		void printer() {
+			System.out.println("hello");
+		}
+		
+		void printer2 (int a, int b) {
+			System.out.println("매게변수는 :" + a + b );
+		}
+		
+		void printer3 (int a, int b) {
+			System.out.println("매게변수의합 a + b는" + (a+b) + " 입니다"  );
+		}
+		
+		public String genderfinder (String a) {
+			if(a == "male") {
+				return "male";
+			}else {
+				return "women";
+			}
+		}
+	}
 
 	public static void main (String[] args) {
 		
